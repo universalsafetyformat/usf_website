@@ -29,7 +29,11 @@ to install the required CSS tools.
 
 ### Edit
 
-Edit the sources with your favorite editor. You can run `hugo server` in the background to get a live preview of your changes in the browser.
+Edit the sources with your favorite editor (see the folder `content/en`). You can run `hugo server` in the background to get a live preview of your changes in the browser.
+
+Look at the [Markdown Guide](https://www.markdownguide.org/tools/hugo/) to get more information about the markdown elements supported by [hugo](https:/gohugo.io) out of the box.
+
+The website uses the Docsy template. Check out the [Docsy example site](https://www.docsy.dev/docs/), which serves as a blueprint what can be done with Docsy. The sources for the example site can be found [here](https://github.com/google/docsy/tree/a7dc77412c533fefc71730927350677fed35f576/userguide/content/en).
 
 ### Commit and Deploy
 
