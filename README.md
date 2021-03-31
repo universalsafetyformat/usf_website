@@ -39,6 +39,6 @@ The website uses the Docsy template. Check out the [Docsy example site](https://
 
 Commit your changes once you are finished.
 
-Do deploy the website run `./deploy.sh` in the root of the repository. This will rebuild the website with hugo and push the changes to the github pages repository.
+In order to deploy the website run `./deploy.sh` in the root of the repository. This will rebuild the website with hugo and push the changes to the github pages repository.
 
 The github pages repository is included as a submodule to seperate the source code and the generate HTML, therefore please commit once more after you have ran the deploy script.
