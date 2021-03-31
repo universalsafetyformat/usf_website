@@ -29,7 +29,7 @@ to install the required CSS tools.
 
 ### Edit
 
-Edit the sources with your favorite editor (see the folder `content/en`). You can run `hugo server` in the background to get a live preview of your changes in the browser.
+Edit the sources with your favorite editor (see the folder `content/en`). You can run `hugo server` in the background to get a live preview of your changes in the browser (use URL "localhost:1313").
 
 Look at the [Markdown Guide](https://www.markdownguide.org/tools/hugo/) to get more information about the markdown elements supported by [hugo](https:/gohugo.io) out of the box.
 
