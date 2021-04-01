@@ -27,6 +27,8 @@ npm install
 
 to install the required CSS tools.
 
+Note: Running the deploy script didn't work with `node` version v9.5.0 (on MacOS BigSur). Switching to version v10.15.1 fixed the problem.
+
 ### Edit
 
 Edit the sources with your favorite editor (see the folder `content/en`). You can run `hugo server` in the background to get a live preview of your changes in the browser (use URL "localhost:1313").
