@@ -19,20 +19,36 @@ linkTitle = "USF"
 
 
 {{% blocks/lead color="primary" %}}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+Automation solutions are advancing further and further into various areas of life. This is already true for industrial manufacturing, and can increasingly be observed in home automation and medical care. In the future, highly automated assistants will cooperate with humans closer than ever. To avoid harm, it is crucial to incorporate safety mechanisms into the software of these assistants. 
 {{% /blocks/lead %}}
+
+{{% blocks/section type="section" color="white" %}}
+To improve the functional safety of a technical system’s software, the common approach today is to manually add code that implements safety mechanisms to existing source code. The manual addition of safety code 
+
+<ul>
+	<li>risks introducing flaws into the functional code of the software (which may lead to physical harm in the worst case),</li>
+	<li>increases code complexity,</li>
+	<li>significantly prolongs development time, and</li>
+	<li>makes the code harder to grasp than the functional code alone</li>
+</ul>
+
+The Universal Safety Format (USF) was created to improve this situation. USF formally defines functional safety mechanisms and a language to automatically weave them into system models and source code. What has been a time consuming, error-prone manual task can now be automated. 
+
+The format enables users to pick safety mechanisms from a library (e.g., a Dual Modular Redundancy pattern), and specify the locations in the code where the mechanism should be weaved in. A USF tool then adds the pattern’s safety code to the existing code automatically. 
+
+{{% /blocks/section %}}
 
 {{< blocks/section color="dark" type="features">}}
 {{% blocks/feature icon="fa-lightbulb" title="See USF in action!" url="/transformations" %}}
-Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+The gist of USF is automatic weaving of safety mechanisms in models and code. Learn how the transformation engine works.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Learn about tools for USF!" url="/tools" %}}
-Nullam dictum felis eu pede mollis pretium. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+{{% blocks/feature icon="fas fa-tools" title="Learn about tools for USF!" url="/tools" %}}
+USF is a fairly new format. Nevertheless, a couple of tools which support USF are already showing up. Check out the tools section! 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Join the discussion!" url="https://www.edacentrum.de/safe4i/" %}}
-[Visit](https://www.edacentrum.de/safe4i/) the SAFE4I website and join us!
+{{% blocks/feature icon="fas fa-bullhorn" title="Join the discussion!" url="https://www.edacentrum.de/safe4i/" %}}
+USF is being developed by the SAFE4I research project consortium, supported by the German BMBF. [Visit the SAFE4I website](https://www.edacentrum.de/safe4i/) and learn more!
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
