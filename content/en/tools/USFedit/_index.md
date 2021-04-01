@@ -4,7 +4,7 @@ linkTitle: USFedit
 weight: 3
 type: docs
 description: >
-  An Eclipse-based Editor for USF models. Enjoy! Here we go ;-)
+  An Eclipse-based Editor for USF models. Enjoy! Here we go ;-) next try
 ---
 
 ## Etiam sit amet orci eget eros faucibus tincidunt
