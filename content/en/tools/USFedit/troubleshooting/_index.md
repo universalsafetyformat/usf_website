@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 linkTitle: Troubleshooting
-weight: 3
+weight: 5
 type: docs
 description: >
   Description of known limitations and workaraounds.

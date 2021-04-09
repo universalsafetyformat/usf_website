@@ -11,7 +11,7 @@ description: >
 
 To create a new USF project, choose from the File menu New, and then Other… 
 
-In the upcoming dialog search for a Wizard named USF Project (cf. Figure 4 2). Select the wizard and click next, enter a project name and click Finish. This will create a new USF project in your default workspace.
+In the upcoming dialog search for a Wizard named USF Project (figure below). Select the wizard and click next, enter a project name and click Finish. This will create a new USF project in your default workspace.
 
 ![New Project](new_project.png "New Project")
 
@@ -33,7 +33,7 @@ Existing diagrams can be opened with double click on the diagrams name.
 
 ### Working with data flows
 
-Assume a simple functional model showing the cooperation of sensors and controller to control an engine. In the example shown in Figure 4 4 there are four Block Types (SpeedSensor, RadarSensor, Controller, and Actuator, all on the top). All block types define certain data ports for representing data values.
+Assume a simple functional model showing the cooperation of sensors and controller to control an engine. In the example shown in the following figure there are four Block Types (SpeedSensor, RadarSensor, Controller, and Actuator, all on the top). All block types define certain data ports for representing data values.
 
 Instances of those Block Types are shown in the Task container (which is technically also a Block Type containing the shown blocks). A block derives its ports from its type. Since the actuator block is untyped, there are no ports. Furthermore, untyped blocks are drawn grey, so they are easy to find.
 To assign a Block Type to a Block, use the Properties view. Select the actuator block and in the Properties view, click the [...]  button next to type.
@@ -77,7 +77,7 @@ TODO: Verwendung von Stereotypes in Block Diagrammen!!
 
 ## Working with Safety Mechanisms
 
-Safety mechanisms are available in Block Diagrams and Safety mechanism Diagrams. To define a Safety mechanism Type, one or more related BlockTypes are needed to define the signature of the Safety mechanism. Think of the DMR pattern shown in Figure 3 2. The secured block should be doubled. To perform this operation parameters like the “block to secure” its ports as well as error handler and comparator for the output values are required. The Figure below shows and example setup for the DMR pattern which serves the signature definition for the transformation.
+Safety mechanisms are available in Block Diagrams and Safety mechanism Diagrams. To define a Safety mechanism Type, one or more related BlockTypes are needed to define the signature of the Safety mechanism. Think of the DMR pattern shown in the following figure. The secured block should be doubled. To perform this operation parameters like the “block to secure” its ports as well as error handler and comparator for the output values are required. The figure below shows and example setup for the DMR pattern which serves the signature definition for the transformation.
 
 ![Safety Mechanism Definition](dmr_definition.png "Safety Mechanism Definition")
 
@@ -87,6 +87,8 @@ To add an “instance” of the DMR pattern (as shown in Figure 4 12), create a 
 
 ![Safety Mechanism instance](safety_mechanism_instance.png "Safety Mechanism instance")
 
+To add an “instance” of the DMR pattern (shown in the figure above), create a new Safety mechanism in the Block Diagram (see figure below). Choose Safety mechanism from the tool palette (step 1). Then click on some free space in the diagram (step 2). The Create a new Safety mechanism dialog opens and you can enter some name and select the Safety mechanism Type for the new instance. Click OK to finish the creation (step 3).
+
 Next, the new instance is added and shows all required arguments.
 
 ![Safety Mechanism assignment](safety_mechanism_assignment.png "Safety Mechanism assignment")
@@ -95,7 +97,7 @@ If you want to set or override values of a pattern’s parameters, you can selec
 
 ## Defining a Transformation
 
-After creating a SafetyMeasureType it is possible to create/navigate to the transformation describing the steps which need to be performed to secure the system. There is a context menu command available for the SafetyMeasureType (“USF->Show Transformation”) which will initialize a transformation file located in the USF Project if no transformation was specified or just opens the transformation if it is already present. The initial created transformation file will already contain the specified parameters defined for the SafetyMeasureType but needs manual synchronized later on (at the moment) if they are changed in the SafetyMeasureType. Figure 4 16 shows the DMR transformation as an example.
+After creating a SafetyMeasureType it is possible to create/navigate to the transformation describing the steps which need to be performed to secure the system. There is a context menu command available for the SafetyMeasureType (“USF->Show Transformation”) which will initialize a transformation file located in the USF Project if no transformation was specified or just opens the transformation if it is already present. The initial created transformation file will already contain the specified parameters defined for the SafetyMeasureType but needs manual synchronized later on (at the moment) if they are changed in the SafetyMeasureType. The following figure shows the DMR transformation as an example.
 
 ![Transformation Example](transformation_example.png "Transformation Example")
 

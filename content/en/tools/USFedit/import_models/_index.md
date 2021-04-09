@@ -1,7 +1,7 @@
 ---
 title: Import Models
 linkTitle: Import Models
-weight: 3
+weight: 4
 type: docs
 description: >
   Some Safety Measure are provided in a zip file as an exported model for reuse.

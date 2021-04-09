@@ -1,7 +1,7 @@
 ---
 title: Editor UI
 linkTitle: Editor UI
-weight: 3
+weight: 2
 type: docs
 description: >
   The USF Editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s dashboard. The Block Diagrams and Type Diagrams show graphical aspects of the USF model. The Properties view show non-graphical properties of model elements selected in the UI. The transformation editor can be opened via double clicking on transformation files (*.usft) in the project explorer or using a context menu command for SafetymechanismTypes.

@@ -1,7 +1,7 @@
 ---
 title: Installation
 linkTitle: Installation
-weight: 3
+weight: 1
 type: docs
 description: >
   The Eclipse PlugIn for USFedit is provided as a local update site. It can be requested at ScopeSET by simply sending an email to info@scopeset.de.
