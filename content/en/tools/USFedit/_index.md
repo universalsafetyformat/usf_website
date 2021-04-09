@@ -4,23 +4,28 @@ linkTitle: USFedit
 weight: 3
 type: docs
 description: >
-  An Eclipse-based Editor for USF models. Enjoy! Here we go ;-) next try
+  USFedit is a graphical editor to view and create USF models provided as an Eclipse plugin. It allows to create functional block models with data and control flows, definition of data types as well as safety measures to secure the functional model.
 ---
 
-## Etiam sit amet orci eget eros faucibus tincidunt
+## Views in USFedit
 
-Nullam dictum felis eu pede mollis pretium. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Etiam sit amet orci eget eros faucibus tincidunt.
+The USF Editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s *dashboard*. The *Block Diagrams* and *Type Diagrams* show graphical aspects of the USF model. The *Properties* view and *Stereotype and Parameters* view show non-graphical properties of model elements.
 
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+![Views in USFedit](editor_views.png "Views in USFedit")
 
-## Nullam dictum felis eu pede mollis pretium
+The *Block Diagram* view and *Type Diagram* view share a similar setup. On the left side is a big canvas located, where model elements are displayed as boxes and connections. This diagram area offers on the top a toolbar with some tools for the visualization of the diagram, such as zoom and layout tools. On the right side there is a palette of tools. Those tools can be used to create new model elements (e.g. blocks, ports or connections). Tools are organized by categories for a better overview. 
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+More information on how to use the editor can be found on the following pages:
 
-### Etiam sit amet orci eget eros faucibus tincidunt
+- [Installation](/tools/usfedit/installation)
 
-Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+- [Editor UI](/tools/usfedit/editor_ui)
 
-### Curabitur ullamcorper ultricies nisi
+- [Getting Started](/tools/usfedit/getting_started)
 
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
+- [Import Models](/tools/usfedit/import_models)
+
+- [Troubleshooting](/tools/usfedit/troubleshooting)
+ 
+
+
