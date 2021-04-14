@@ -11,6 +11,8 @@ description: >
 
 USF allows to create libraries of functional safety mechanisms, e.g., for applying DMR, TMR or Watchdog mechanisms. These mechanisms are defined as model-to-model transformation scripts, using the definitions of the USF meta model (blocks, ports, control flow, etc.). The transformation language is designed such that the mechanisms can be applied on the model level and on the code level. Examples for model-level applications include domain-specific models like SysML hierarchical structures, AUTOSAR components or proprietary component-style architecture models. The main target for the code-level application of safety mechanisms currently is the C programming language. Many safety-critical systems are using C as their implementation language. 
 
+![SafetyWeaver in action](SafetyWeaver_Screenshot1.png "SafetyWeaver in action")
+
 SafetyWeaver is a tool for the application of safety mechanisms, i.e., for executing USF transformation scripts on different domain-specific models or code. The SafetyWeaver tool is based on the tool platform MPS, provided by JetBrains as open-source tooling (link: https://www.jetbrains.com/mps/). Additionally, SafetyWeaver uses the mbeddr (link: http://mbeddr.com) open-source project, which is an extensible C IDE .SafetyWeaver is being developed by the German company itemis (link: https://www.itemis.com/en/it-services/methods-and-tools/). Please contact klaus.birken@itemis.de for further information and demo or evaluation requests. 
 
 
