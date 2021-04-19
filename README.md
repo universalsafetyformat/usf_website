@@ -27,7 +27,7 @@ npm install
 
 to install the required CSS tools.
 
-Note: Running the deploy script didn't work with `node` version v9.5.0 (on MacOS BigSur). Switching to version v10.15.1 fixed the problem.
+Note: Running the deploy script didn't work with `node` version v9.5.0 (on MacOS BigSur). Switching to version v10.15.1 fixed the problem (e.g., using `nvm install v10.15.1`).
 
 ### Edit
 
