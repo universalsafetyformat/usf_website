@@ -62,7 +62,7 @@ anchor = "smart"
 # Everything below this are Site Params
 
 [params]
-copyright = "SAFE4I Consortium"
+copyright = "SAFE4I Consortium."
 #privacy_policy = "https://policies.google.com/privacy"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
