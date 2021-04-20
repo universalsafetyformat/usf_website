@@ -9,7 +9,7 @@ description: >
 
 ## Welcome to SafetyWeaver
 
-USF allows to create libraries of functional safety mechanisms, e.g., for applying DMR, TMR or Watchdog mechanisms. These mechanisms are defined as model-to-model transformation scripts, using the definitions of the USF metamodel (blocks, ports, control flow, etc.). The transformation language is designed such that the mechanisms can be applied on the model level and on the code level. More details on the USF transformation language (UTL) can be in section [*USF Transformations*](/concepts/transformations).
+USF allows to create libraries of functional safety mechanisms, e.g., for applying DMR, TMR or Watchdog mechanisms. These mechanisms are defined as model-to-model transformation scripts, using the definitions of the USF metamodel (blocks, ports, control flow, etc.). The transformation language is designed such that the mechanisms can be applied on the model level and on the code level. More details on the USF transformation language (UTL) can be found in section [*USF Transformations*](/concepts/transformations).
 
 Examples for model-level applications include domain-specific models like SysML hierarchical structures, AUTOSAR components or proprietary component-style architecture models. The main target for the code-level application of safety mechanisms currently is the C programming language. Many safety-critical systems are using C as their implementation language. 
 
