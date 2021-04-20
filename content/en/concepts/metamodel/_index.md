@@ -8,13 +8,13 @@ description: >
 
 Here we give a brief overview of the main concepts of the USF metamodel.
 
-This metamodel is the foundation for all tool support and makes sure that all tools are based on the same concepts. These concepts of of the USF Metamodel are outlined below.
+This metamodel is the foundation for all tool support and makes sure that all tools are based on the same concepts. These concepts of the USF Metamodel are outlined below.
 
 ## Common Base Classes
 
 ![Common Base Classes](common_base_classes.png "Common Base Classes")
 
-The content of the USF Metamodel is stored inside a *Model* which servs as top-level entry point. Further structuring of the contained data can be achieved by using *Packages*. Elements contained by the *Model* or *Package* are classified as *IModelContent*.
+The content of the USF Metamodel is stored inside a *Model* which serves as top-level entry point. Further structuring of the contained data can be achieved by using *Packages*. Elements contained by the *Model* or *Package* are classified as *IModelContent*.
 Additional to this, two types *DocumentedElement* and *NamedElement* are used to classify types in the USF Metamodel which have a name and/or a documentation.
 
 ## Type Concepts
@@ -35,7 +35,7 @@ Elements of a system are modeled as Blocks and are characterized by a BlockType.
 ![Control Flow Concepts](control_flow_concept.png "Control Flow Concepts")
 
 For the modeling of information flow special port and connection concepts are provided in USF. This scopes the focus to separate information- and control flow modeling.
-Derived concepts are explicitly focused on control flow. To represent control flow ControlFlowPorts and ControlFlowConnections are used. Additional dedicated Blocktypes for Join, Fork, Merge and Decision are provided to model the control flow. Send and Receive Signal are used to start or consume a control flow and will consume ore emit a defined signal in the system.
+Derived concepts are explicitly focused on control flow. To represent control flow ControlFlowPorts and ControlFlowConnections are used. Additional dedicated Blocktypes for Join, Fork, Merge and Decision are provided to model the control flow. Send and Receive Signal are used to start or consume a control flow and will consume or emit a defined signal in the system.
 
 ## Safety Mechanism Concepts
 
