@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd ">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0" x="0" viewBox="-53 -53 106 116 ">
+  <title>['gyronny of ten azure and argent ']</title>
+  <desc>This is an SVG of a blazon, a heraldic description of a shield.  It was generated with pyBlazon, by Mark Shoulson and Arnt Richard Johansen</desc>
+  <mask id="Clip0001">
+    <g fill="white">
+      <path d="M -50 -50 V-14 C-50,46 0,60 0,60 C0,60 50,46 50,-14 V-50 z" id="ClipPath0002"/>
+    </g>
+  </mask>
+  <path stroke="black" stroke-width="1" d="M -50 -50 V-14 C-50,46 0,60 0,60 C0,60 50,46 50,-14 V-50 z" fill="none"/>
+  <defs/>
+  <g mask="url(#Clip0001)" transform="">
+    <g>
+      <rect y="-50" width="100" fill="blue" x="-50" height="110"/>
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="110" width="100" y="-50" x="-50" viewBox="-50 -50 100 110 ">
+        <mask id="Clip0003">
+          <g fill="white">
+            <path id="ClipPath0004" d="M 6.73533494602e-15 110.0 L 0 0 L -64.6563777522 88.9918693812 z M -104.616216792 33.9918693812 L 0 0 L -104.616216792 -33.9918693812 z M -64.6563777522 -88.9918693812 L 0 0 L -2.02060048381e-14 -110.0 z M 64.6563777522 -88.9918693812 L 0 0 L 104.616216792 -33.9918693812 z M 104.616216792 33.9918693812 L 0 0 L 64.6563777522 88.9918693812 z" fill-rule="evenodd"/>
+          </g>
+        </mask>
+        <defs/>
+        <g mask="url(#Clip0003)">
+          <rect y="-50" width="100" fill="white" x="-50" height="110"/>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>
