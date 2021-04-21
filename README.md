@@ -2,6 +2,8 @@
 
 This repository contains the source code for the USF website. The website is generated with [hugo](https:/gohugo.io).
 
+See [this page](https://github.com/universalsafetyformat/usf_website/wiki/Notes-on-licenses-of-used-frameworks-and-images) for details on licensing. 
+
 ## Editing the website
 
 To be able to edit the website and deploy it you need to have two things installed:
