@@ -4,7 +4,7 @@ linkTitle: Getting Started
 weight: 3
 type: docs
 description: >
-  Here we give a brief overview on how start with USFedit by creating a new project and models from scratch. 
+  Here we give a brief overview on how start with SafetyModeler by creating a new project and models from scratch. 
 ---
 
 ## Creating a USF Project
@@ -117,7 +117,7 @@ How to use those Types is shown in following figure.  The block c:Checker offers
 
 ![Use Template Types](use_template_types.png "Use Template Types")
 
-To derive the actually used types, USFedit provides the command Infer Types. To execute the command, a BlockType or model file has to be selected!
+To derive the actually used types, SafetyModeler provides the command Infer Types. To execute the command, a BlockType or model file has to be selected!
 
 ![Infer Command](infer_command.png "Infer Command")
 
