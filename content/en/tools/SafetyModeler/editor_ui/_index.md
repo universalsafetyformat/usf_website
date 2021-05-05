@@ -4,7 +4,7 @@ linkTitle: Editor UI
 weight: 2
 type: docs
 description: >
-  The USF Editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s dashboard. The Block Diagrams and Type Diagrams show graphical aspects of the USF model. The Properties view show non-graphical properties of model elements selected in the UI. The transformation editor can be opened via double clicking on transformation files (*.usft) in the project explorer or using a context menu command for SafetymechanismTypes.
+  The editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s dashboard. The Block Diagrams and Type Diagrams show graphical aspects of the USF model. The Properties view show non-graphical properties of model elements selected in the UI. The transformation editor can be opened via double clicking on transformation files (*.usft) in the project explorer or using a context menu command for SafetymechanismTypes.
 ---
 
 ## Overview of the Dashboard
@@ -34,7 +34,7 @@ The tool palette on the right hand side is organized in several groups. Block �
 
 In a Safety Measure Diagram, types of Safety Measures can be defined. A Safety Measure Type specifies all required parameters of a safety measure. Parameters are distinguished into model parameter and primitive parameteter, model parameter are parameter which take a model element as argument while primitive parameter take a simple value as argument (like “true”/false” or “33”). The figure below shows two Safety Measure Types each with a list of parameters. Primitive parameters can define default values which are used for Safety Measure by default if no other value is defined.
 
-![Safety mechanism definition](safety_mechanism_definition.png "Define a safety mechanism in USFedit")
+![Safety mechanism definition](safety_mechanism_definition.png "Define a safety mechanism in SafetyModeler")
 
 The Safety Measure Type provides the interface definition for the transformation it self which is defined via USF Transformation language. There is a context menu action avalible for the Safety Measure Type to navigate to the related transformation (“Show Transformation”). If no transformation is avalible a skellton body will be generated which can then be filled with the transformation instructions.
 
