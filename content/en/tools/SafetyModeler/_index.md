@@ -11,7 +11,7 @@ SafetyModeler is a graphical editor to view and create USF models provided as an
 
 ## Views in SafetyModeler
 
-The USF editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s *dashboard*. The *Block Diagrams* and *Type Diagrams* show graphical aspects of the USF model. The *Properties* view and *Stereotype and Parameters* view show non-graphical properties of model elements.
+The editor consists of several views showing different aspects of a USF model. Most views can be accessed from the editor’s *dashboard*. The *Block Diagrams* and *Type Diagrams* show graphical aspects of the USF model. The *Properties* view and *Stereotype and Parameters* view show non-graphical properties of model elements.
 
 ![Views in SafetyModeler](editor_views.png "Views in SafetyModeler")
 
