@@ -63,7 +63,8 @@ anchor = "smart"
 
 [params]
 copyright = "SAFE4I Consortium."
-#privacy_policy = "https://policies.google.com/privacy"
+legal_notice = "legal_notice/index.html"
+#privacy_policy = "privacy_policy/index.html"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
