@@ -22,4 +22,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin main
+# Note that the target repo is restricted on github, you can only push to a branch which
+# is not "main" and create a pull request afterwards. Each PR has to be reviewed according
+# to the repository's branch protection policy.
+git push origin

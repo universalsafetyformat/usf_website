@@ -72,7 +72,7 @@ We plan to extend this library continuously by adding new transformation scripts
 
 Although the first release of SafetyWeaver is already available for evaluation purposes, there is a roadmap of future extensions. This roadmap includes the following features: 
 
-- support weaving for real-world, component-based domain models, e.g., SysML v2 
+- support weaving for real-world, component-based domain models, e.g., SysML v2 or AUTOSAR
 - enhance library of safety mechanisms aka transformation scripts 
 - support latest extensions of USF, e.g., hardware deployment 
 
