@@ -37,14 +37,14 @@ Elements of a system are modeled as Blocks and are characterized by a BlockType.
 For the modeling of information flow special port and connection concepts are provided in USF. This scopes the focus to separate information- and control flow modeling.
 Derived concepts are explicitly focused on control flow. To represent control flow ControlFlowPorts and ControlFlowConnections are used. Additional dedicated Blocktypes for Join, Fork, Merge and Decision are provided to model the control flow. Send and Receive Signal are used to start or consume a control flow and will consume or emit a defined signal in the system.
 
-## Safety Mechanism Concepts
+## Safety Pattern Concepts
 
-![Safety Mechanism Concepts](safety_mechanism_concept.png "Safety Mechanism Concepts")
+![Safety Pattern Concepts](safety_pattern_concept.png "Safety Mechanism Concepts")
 
-Safety mechanisms are technical solutions to protect a functional system and are finally included by a model-to-model transformation or model-to-code transformation into the final model or the final code.
+Safety patterns are technical solutions to protect a functional system and are finally included by a model-to-model transformation or model-to-code transformation into the final model or the final code.
 
-To describe safety mechanisms the concept of a *SafetyMeasureType* and a *SafetyMeasure* are part of the metamodel. A *SafetyMeasureType* specifies the template with all the required parameters of a safety measure that are needed for the transformation. 
-A *SafetyMechanism* is an instantiation of a *SafetyMechanismType* and is assigned to a block. All parameters defined in the template are filled with concrete values, which can be model elements or strings to configure the transformation which will perform the safety measure on the domain model.
+To describe safety mechanism the concept of a *SafetyPattern* and a *SafetyPatternApplication* are part of the metamodel. A *SafetyPattern* specifies the template with all the required parameters of a safety measure that are needed for the transformation. 
+A *SafetyPatternAppication* is an instantiation of a *SafetyPattern* and is assigned to a block. All parameters defined in the template are filled with concrete values, which can be model elements or strings to configure the transformation which will perform the safety measure on the domain model.
 
 
 ## Error Handling Concepts
