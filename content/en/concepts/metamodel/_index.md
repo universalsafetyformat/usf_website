@@ -39,12 +39,12 @@ Derived concepts are explicitly focused on control flow. To represent control fl
 
 ## Safety Pattern Concepts
 
-![Safety Pattern Concepts](safety_pattern_concept.png "Safety Mechanism Concepts")
+![Safety Pattern Concepts](safety_pattern_concept.png "Safety Pattern Concepts")
 
 Safety patterns are technical solutions to protect a functional system and are finally included by a model-to-model transformation or model-to-code transformation into the final model or the final code.
 
-To describe safety mechanism the concept of a *SafetyPattern* and a *SafetyPatternApplication* are part of the metamodel. A *SafetyPattern* specifies the template with all the required parameters of a safety measure that are needed for the transformation. 
-A *SafetyPatternAppication* is an instantiation of a *SafetyPattern* and is assigned to a block. All parameters defined in the template are filled with concrete values, which can be model elements or strings to configure the transformation which will perform the safety measure on the domain model.
+To describe safety pattern the concept of a *SafetyPattern* and a *SafetyPatternApplication* are part of the metamodel. A *SafetyPattern* specifies the template with all the required parameters of a safety pattern that are needed for the transformation. 
+A *SafetyPatternAppication* is an instantiation of a *SafetyPattern* and is assigned to a block. All parameters defined in the template are filled with concrete values, which can be model elements or strings to configure the transformation which will perform the safety pattern on the domain model.
 
 
 ## Error Handling Concepts
