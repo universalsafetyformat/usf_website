@@ -29,5 +29,4 @@ More information on how to use the editor can be found on the following pages:
 
 - [Troubleshooting](/tools/safetymodeler/troubleshooting)
  
-
-
+For further information about the SafetyModeler, please contact ScopeSET at info@scopeset.de.
