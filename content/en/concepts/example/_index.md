@@ -3,10 +3,10 @@ title: Safety Pattern Example
 weight: 30
 type: docs
 description: >
-  Example for the application of a safety pattern in Simulink
+  Example for the application of a safety pattern in Simulink&#174;
 ---
 
-Here we give a small example for the application of a dual modular redundancy (DMR) pattern to a PID controller modeled in MATLAB/Simulink.
+Here we give a small example for the application of a dual modular redundancy (DMR) pattern to a PID controller modeled in MATLAB&#174; / Simulink&#174;.
 
 ## DMR UTL Transformation
 
@@ -50,3 +50,7 @@ Using the provided comparator implementation, we can now apply the transformatio
 The following screenshot shows the resulting Simulink model with the DMR pattern applied.
 
 ![Safe Block Model](simulink-pid-after.png "Safe Block Model")
+
+------------------------------------------------------------
+
+MATLAB and Simulink are registered trademarks of The MathWorks, Inc. See [mathworks.com/trademarks](https://mathworks.com/trademarks) for a list of additional trademarks.
