@@ -4,7 +4,7 @@ linkTitle: Installation
 weight: 1
 type: docs
 description: >
-  The Eclipse PlugIn for SafetyModeler is provided as a local update site. It can be requested at ScopeSET by simply sending an email to info@scopeset.de.
+  The Eclipse plugin for the SafetyModeler is available from the following update site: https://universalsafetyformat.org/usf_safetymodeler_p2/.
 ---
 
 ## Installation of the SafetyModeler plugin
